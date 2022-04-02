@@ -1,0 +1,57 @@
+/* Commun à toutes les pages */
+
+body{
+    background: url(tennis-terrebattues.jpg);
+    background-size: 100%;
+    ;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 5px wheat;
+}
+
+nav{
+    position: fixe;
+}
+
+
+footer{
+    position: fixed;
+
+}
+
+
+/* Page Accueil */
+
+article{
+    border-radius: 10px;
+    background-color: rgba(157, 255, 9, 0.199);
+    margin-top: 10px;
+    color: white;
+    margin-left: 200px;
+}
+
+li{
+ text-align: center;
+ font-weight:bold;
+ list-style: none;
+}
+
+.maps{
+    background-color: white;
+}
+
+
+/* Page Contact */
+
+.contact{
+    color: aliceblue;
+    text-align: center;
+   
+
+}
+
+.textcontact{
+    font-size:xx-large;
+}
