@@ -1,36 +1,71 @@
 /* Commun à toutes les pages */
-
 body{
-    background: url(tennis-terrebattues.jpg);
-    background-size: 100%;
-    ;
+    background-color: rgba(255, 166, 0, 0.207);
 }
 
 h1{
     text-align: center;
     text-shadow: 1px 5px wheat;
+    background: url(tennis-terrebattues.jpg);
+    background-size: 100%;
+    
 }
 
 nav{
-    position: fixe;
+    background-color: rgba(255, 166, 0, 0.207);
 }
 
 
-footer{
-    position: fixed;
 
+h2{
+    text-decoration: underline;
+    color: black;
+    text-shadow: 3px 2px rgba(150, 240, 15, 0.974);
+    text-align: center;
 }
+
+.logo{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+
 
 
 /* Page Accueil */
 
-article{
+
+article, aside{
     border-radius: 10px;
-    background-color: rgba(157, 255, 9, 0.199);
-    margin-top: 10px;
+    margin-bottom: 10px;
     color: white;
-    margin-left: 200px;
+    
 }
+
+img{
+    height: 400px;
+    width: auto;
+    
+}
+
+.raquette{
+    height: 100px;
+    width: 200px;
+}
+
+article{
+    background-color:rgba(247, 139, 8, 0.434);
+    display: flex;
+        
+}
+
+aside{
+    background-color: rgba(157, 255, 9, 0.199);
+    
+}
+
 
 li{
  text-align: center;
@@ -38,8 +73,35 @@ li{
  list-style: none;
 }
 
+h2{
+    background-color: brown;
+}
+
+
 .maps{
-    background-color: white;
+    border-radius: 10px;
+}
+
+/* Page Equipe */
+
+table, thead, tbody, tr, td{
+    border: 1px solid grey;
+    color: black;
+    margin: auto;
+
+}
+
+thead{
+    background-color: gray;
+}
+
+tbody{
+    background-color: azure;
+}
+
+div{
+    color: aliceblue;
+    text-align: center;
 }
 
 
