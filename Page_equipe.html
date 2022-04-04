@@ -23,45 +23,65 @@
 <body>
        
   <!--début du header-->
-      <header>
+  <header>
         
-        <nav class="navbar navbar-expand-md bg-light navbar-light ">
-          <div class="container">
-              <a class="navbar-brand fw-bold" href="./index.html"> TCOP</a>
+    <nav class="navbar navbar-expand-md navbar-light  ">
+      <div class="container">
+          <a class="navbar-brand fw-bold" href="index.html"> TCOP</a>
 
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                  </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-              <ul class="navbar-nav">
-                  <li class="nav-item active">
-                      <a  class="nav-link" href="./index.html"> Vie du Club</a>
-                  </li>
-                  <li class="nav-item">
-                      <a  class="nav-link" href="/Evaluation_HTML_CSS_BOOTSTRAP/Page_equipe.html"> Les équipes </a>
-                  </li>
-                  <li class="nav-item ">
-                      <a  class="nav-link" href="#Competition"> Les compétitions </a>
-                  </li>
-                  <li class="nav-item ">
-                      <a  class="nav-link" href="./Page_Contact.html"> Contact</a>
-                  </li>
-              </ul>
-            </div>
-          </div>
-      </nav>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+              <li class="nav-item active">
+                  <a  class="nav-link" href="./Page_VieDuClub.html"> Vie du Club</a>
+              </li>
+              <li class="nav-item">
+                  <a  class="nav-link" href="./Page_equipe.html"> Les équipes </a>
+              </li>
+              
+              <li class="nav-item ">
+                  <a  class="nav-link" href="./Page_Contact.html"> Contact</a>
+              </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
 
-      </header>
+
+      <h1> 
+        <p class="titre"> <img src="./sports_tennis_black_24dp.svg" alt="Raquette de tennis" class="raquette">  Tennis Club de Oye Plage  <img src="./sports_tennis_black_24dp.svg" alt="Raquette de tennis" class="raquette"> </p>
+          <img src="/Evaluation_HTML_CSS_BOOTSTRAP/36642780_251732852225158_4352637655834427392_n.png" alt="Logo du TCOP" class="logo">
+       </h1>
+
+       <!--Menu des équipes-->
+
+       <ul class="menuEquipe">
+        <li>
+          <a href="#EquipeFemme" class="actif">Equipes Femmes</a>
+        </li>
+        <li>
+          <a href="#EquipeHomme">Equipes Hommes</a>
+        </li>
+        <li>
+          <a href="#Enfant">Enfants</a>
+        </li>
+  </ul>
+
+
         <!--début tableau femme-->
-                <h2>Les équipes</h2>
-        <section>
-            <div>
-                   <h3>L'équipe femme</h3>
+                <h2 class="titreequipe">Les équipes</h2>
+        <section class="container3">
+            <div class="tableau column3">
+                <div >
+                   <h3 id="EquipeFemme">L'équipe femme</h3>
                 
                 <p>Le TCOP a deux équipes femmes : une équipe loisirs et une équipe compétition. </p>
                 <p>Elles évoluent en championnat départemental.</p>
 
                 Voici leur calendrier de rencontre:
+                </div>
 
                 <table>
                 
@@ -160,10 +180,10 @@
         <!--fin du tableau femme-->
 
         <!--début tableau homme-->
-        <h2>Les équipes</h2>
-        <section>
-            <div>
-                   <h3>L'équipe homme sénior</h3>
+        <h2 class="titreequipe">Les équipes</h2>
+        <section class="container3">
+            <div class="tableau column3">
+                   <h3 id="EquipeHomme">L'équipe homme sénior</h3>
                 
                 <p>Le TCOP a plusieurs équipes hommes : une équipe loisirs, et plusieurs équipes compétitions : Sénior, +35, +55. </p>
                 <p>Ils évoluent en championnat départemental.</p>
@@ -246,5 +266,33 @@
         </section>
         <!--Fin du tableau homme-->
 
+        <!--début de la partie des enfants-->
+
+            <h2 class="titreequipe">Les enfants</h2>
+        <section class="container3">
+            <div class="tableau column3">
+                <h3 id="Enfant"> Les différents plateaux enfants</h3>
+
+                    <p>Pour les enfants, il existe différents plateaux possible: </br>
+                        5 niveaux d'apprentissage </br>
+                            Cinq niveaux permettent à l'enseignant de faire évoluer progressivement les enfants du mini court au court "des grands" en évaluant régulièrement leurs compétences dans les journées « Jeu et Match » : </br>
+
+                         <ul>
+                            <li>Terrain blanc : 8 m de long sans filet avec ballon blanc (20 cm de diamètre)</li>
+                            <li>Terrain violet : 11 m avec filet à 0,50 m et une balle violette (12 à 15 cm de diamètre)</li>
+                            <li>Terrain rouge : 12,8 m avec filet de 0,80 m et balle rouge (7,5 cm de diamètre)</li>
+                            <li>Terrain orange : 18 m avec filet à 0,80 m et balle orange</li>
+                            <li>Terrain vert : Court de tennis traditionnel avec balle verte</li>
+                        </ul>               
+                    </p>
+            </div>
+              
+        
+            <div class="column3">
+                 <img src="./niveautennisenfant.webp" alt="différents plateaux enfants">
+                     <figcaption>Crédits: site de <a href="https://www.atp-m.fr/single-post/2019/10/21/plateaux-galaxie-tennis" target="_blanck">l'ATP-M </a> </figcaption>
+            </div>
+        </section>
+                
       </body>
       </html>
