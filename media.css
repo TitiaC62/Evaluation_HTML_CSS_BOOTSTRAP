@@ -1,0 +1,287 @@
+/* smartphone */
+
+@media screen and (min-width: 600px)  {
+    
+/* Commun à toutes les pages */
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 1px 5px wheat;
+    background: url(media/tennis-terrebattues.jpg);
+    background-size: 100%;
+    
+}
+
+
+
+.logo{
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+ul, li{
+    list-style-type: none;
+}
+
+
+/* Page Accueil */
+
+
+article, aside{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    color: white;
+      
+    
+}
+
+
+
+img{
+    height: 150px;
+    width: auto;
+    
+}
+
+img.raquette{
+    height: 50px;
+    width: 50px;
+}
+
+.grid {
+    display: grid;  
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.Column{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+
+
+
+
+/* Page Equipe */
+.menuEquipe {
+    display: flex;                
+    padding:0;                    
+    justify-content:center;
+}
+
+.menuEquipe a {
+    display:block;                
+    min-width: 120px;              
+    margin: 1rem;               
+    padding: 0.5rem 0;            
+    text-align: center;             
+      background-color: orangered; 
+    color: #fff;                  
+    text-decoration: none;        
+    border: 1px solid #fff;       
+    border-radius: 4px;          
+    transition: all 1s ;         
+}
+.menuEquipe a.actif {    
+    background-color:red ; 
+    color: white ;
+    border-color:white ;
+}
+
+.menuEquipe a:hover, .menuEquipe a:hover.actif{
+    background-color:rgb(238, 255, 0);
+    color: red;
+    border-color: red;
+}
+
+
+.titreequipe{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.tableau{
+    margin-bottom: 20px;
+   padding-left: 10px;
+       
+}
+
+
+/* Page Contact */
+
+.contact{
+    color: rgb(228, 148, 9);
+    text-align: center;
+}
+
+.textcontact{
+    font-size:xx-large;
+}
+
+form{
+    border: 15px groove grey;
+    border-radius: 5px;
+    background-color:coral;
+}
+
+}
+
+/* tablet and desktop */
+
+
+@media screen and (min-width: 768px) {
+
+    /* Commun à toutes les pages */
+.icon{
+    width: 70px;
+    height: 70px;
+}
+
+
+.logo{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+
+/* Page Accueil */
+
+p.titre{
+    font-size: larger;
+}
+
+img{
+    height: 300px;
+    width: auto;
+    
+}
+
+.raquette{
+    height: 200px;
+    width: 200px;
+}
+
+
+.container2{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.Column1{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.Column2{
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    
+}
+
+/* Page Equipe */
+.menuEquipe {
+    display: flex;                
+    padding:0;                    
+    justify-content:center;
+}
+
+.menuEquipe a {
+    display:block;                
+    min-width: 120px;              
+    margin: 1rem;               
+    padding: 0.5rem 0;            
+    text-align: center;             
+      background-color: orangered; 
+    color: #fff;                  
+    text-decoration: none;        
+    border: 1px solid #fff;       
+    border-radius: 4px;          
+    transition: all 1s ;         
+}
+.menuEquipe a.actif {    
+    background-color:red ; 
+    color: white ;
+    border-color:white ;
+}
+
+.menuEquipe a:hover, .menuEquipe a:hover.actif{
+    background-color:rgb(238, 255, 0);
+    color: red;
+    border-color: red;
+}
+
+
+.titreequipe{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.tableau{
+    margin-bottom: 20px;
+   padding-left: 10px;
+   
+    
+}
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-gap: 10px;
+        
+}
+
+.column3{
+    grid-column: 2;
+    grid-row: auto;
+    
+}
+
+.card{
+    display: inline-block;
+}
+
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+*{font-size: x-large;}
+
+.card{
+    display: inline-block;
+}
+
+
+}
+
+@media screen and (min-width: 2560px) {
+
+    *{font-size:xx-large}
+
+    .card{
+        display: inline-block;
+    }
+    
+    
+    }
