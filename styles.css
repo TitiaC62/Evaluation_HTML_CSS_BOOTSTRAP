@@ -6,9 +6,8 @@ body{
 
 .TCOP{
     display: flex;
-    justify-content: space-between;
     color: black;
-}
+}    
 
 
 
@@ -31,11 +30,16 @@ h1{
 
 
 img{
-     margin: 10px;
+    margin: 10px;
      text-align: center;
+     height:30vh;
 
 }
 
+.video{
+    height: 30vh;
+    width: auto;
+}
 
 h2{
     text-decoration: underline;
@@ -53,6 +57,7 @@ h2{
     width: 5em;
     height: 5em;
     margin-bottom: 10px;
+    display: none;
 }
 
 ul, li{
@@ -179,11 +184,10 @@ div.card{
     margin: 10px;
 }
 
-.card-img-top{
-    height: 100px;
-    width: auto;
-    text-align: center;
+.card{
+    display: flex;
 }
+
 
 
 /* Page Equipe */
