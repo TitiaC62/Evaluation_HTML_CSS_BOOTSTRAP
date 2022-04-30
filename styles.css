@@ -176,6 +176,15 @@ div.card{
     margin: 5px 10px;
 }
 
+.Equipe_Feminine, .Equipe_Masculine{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+
+
 .Equipe_Masculine,div{
     margin: 10px;
 }
