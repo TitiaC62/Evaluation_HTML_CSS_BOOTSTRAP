@@ -66,6 +66,12 @@
         
     }
       
+    .article{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
     img.raquette{
         height: 50px;
