@@ -1,4 +1,10 @@
-/* smartphone */
+/* smartphone tablet and desktop a partir de 600px */
+
+/* changements majeurs :
+- apparition du logo du TCOP
+- navbar qui prend la page entière
+- les articles et l'aside se partagent la page index
+- les cards sur la page vie du club sont côtes à côtes */
 
 @media screen and (min-width: 600px)  {
     
@@ -66,17 +72,28 @@
         
     }
       
-    .article{
+    .articles-homepage-container{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: justify;
+        
     }
+
+    .articles-homepage img{
+        margin: 10px;
+         text-align: center;
+         height:50vh;
+    
+    }
+
     
     img.raquette{
         height: 50px;
         width: 50px;
     }
+
     
     
     /* Page Vie du club */
@@ -97,9 +114,7 @@
     }
     
      
-    }
-    
-    
+   
     
     /* Page Equipe */
     .menuEquipe {
@@ -110,7 +125,7 @@
     
     .menuEquipe a {
         display:block;                
-        min-width: 120px;              
+        min-width: 100px;              
         margin: 1rem;               
         padding: 0.5rem 0;            
         text-align: center;             
@@ -136,10 +151,6 @@
     }
     
     
-    .titreequipe{
-        margin-left: 200px;
-        margin-right: 200px;
-    }
     
     .tableau{
         margin-bottom: 20px;
@@ -166,9 +177,9 @@
         background-color:rgb(90, 0, 2);
     }
     
+}
     
-    
-    /* tablet and desktop */
+    /* tablet and desktop à partir de 768px */
     
     
     @media screen and (min-width: 768px) {
@@ -181,10 +192,10 @@
     
     
     .logo{
-        align-items: center;
         width: 100px;
         height: 100px;
         margin-bottom: 10px;
+        display: flex;
     }
     
     
@@ -290,6 +301,4 @@
         .card{
             display: inline-block;
         }
-        
-        
-        }
+}
