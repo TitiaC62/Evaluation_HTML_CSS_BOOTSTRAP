@@ -40,20 +40,32 @@
     
     
     /* Page Accueil */
+
+    .Container{
+        display: grid;
+        grid-template-columns: 1fr 4fr 2fr 1fr;
+        grid-gap: 5px;
+        grid-auto-rows: minmax(100px, auto);
+    }
     
+        
+    .LeftSide{
+        grid-column-start: 2;
+       
+    }
+     
+       
+    .RightSide{
+        grid-column-start: 3;
+    }
+      
     
     article, aside{
         border-radius: 10px;
         margin-bottom: 10px;      
         
     }
-    
-    
-    img{
-        height: auto;
-        width: auto;
-           
-    }
+      
     
     img.raquette{
         height: 50px;
@@ -65,22 +77,20 @@
     
     .card{
         text-align: center;
+        
     }
     
     .div-cards{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
     }
     
     .card-img-top{
-        height: 100px;
-        width: auto;
-        
+        height: 17rem;
+              
     }
     
-    .box-equipe{
-        padding-top: 100px;
-        
+     
     }
     
     
@@ -150,7 +160,7 @@
         background-color:rgb(90, 0, 2);
     }
     
-    }
+    
     
     /* tablet and desktop */
     
@@ -179,11 +189,7 @@
         font-size: x-larger; 
         }
     
-    img{
-        height: 400px;
-        width: auto;
-           
-    }
+  
     
     .raquette{
         height: 200px;

@@ -1,14 +1,21 @@
 /* Commun à toutes les pages */
 body{
     background-color: #ffeccc; 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
   
+}
+
+*{
+    max-width: 100%;
 }
 
 .TCOP{
     display: flex;
     color: black;
-    margin: 0px;
-    padding: 15px;
+   margin-top: 0;
 }    
 
 
@@ -30,12 +37,16 @@ h1{
    
 }
 
-
+/*
 img{
     margin: 10px;
      text-align: center;
      height:30vh;
 
+}*/
+
+img{
+    object-fit: cover;
 }
 
 .video{
@@ -82,7 +93,6 @@ footer{
 
 
 article{
-    
     background-color: #f2d0a4;
     margin: 10px;
    color: white;
@@ -97,6 +107,7 @@ article{
     display: flex;
     align-items: center;
     background-color: #a4303f;
+    margin: 10px;
 
 }
 
@@ -120,6 +131,9 @@ aside{
     
 }
 
+.img-RG{
+    border-radius: 50%;
+}
 
 .dirigeants{
  text-align: center;
@@ -139,8 +153,7 @@ aside{
 }
 
 .maps{
-    border-radius: 10px;
-    margin: 10px;
+    margin: 10px 0;
 }
 
 
@@ -159,12 +172,17 @@ aside{
 
 /* Page Vie du Club */
 
-
+/*
 div.card{
     margin: auto;
     padding: 10px;
     margin-bottom: 10px;
     width: 18rem;    
+}*/
+
+.carousel-item{
+    object-fit: cover;
+    height: auto;
 }
 
 
@@ -181,16 +199,6 @@ div.card{
     flex-direction: row;
     flex-wrap: wrap;
     
-}
-
-
-
-.Equipe_Masculine,div{
-    margin: 10px;
-}
-
-.Equipe_Feminine,div{
-    margin: 10px;
 }
 
 .card{
@@ -264,11 +272,6 @@ tbody{
     border: 2px double #ffeccc;
     border-radius: 50%;
 }
-
-
-
-
-
 
 
 
