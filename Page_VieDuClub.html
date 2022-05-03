@@ -92,7 +92,8 @@
                 <div class="card-body box-equipe">
                     <h5 class="card-title">Equipe féminine</h5>
                     <p class="card-text"> Voici quelques photos de l'équipe féminine </p>
-                    <a  href=Equipe_feminine.html class="btn btn-primary"> Voir les photos </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#equipeFeminine">
+                        Voir les photos </button>
                 </div>
             </div>
     
@@ -102,7 +103,8 @@
                 <div class="card-body box-equipe">
                     <h5 class="card-title">Equipe masculine</h5>
                     <p class="card-text"> Voici quelques photos de l'équipe masculine </p>
-                    <a href="Equipe_masculine.html" class="btn btn-primary"> Voir les photos </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#equipeMasculine">
+                        Voir les photos </button>
                 </div>
             </div>
         </div>
@@ -158,6 +160,93 @@
             </div>
         </div>
     
+
+          <!-- modal carousel equipe feminine -->
+          <div class="modal fade " id="equipeFeminine" tabindex="-1" aria-labelledby="modal photos équipe femmes"
+          aria-hidden="true" data-bs-backdrop="static">
+          <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Equipe Femmes</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+  
+                      <div id="carouselEquipeFeminine" class="carousel slide" data-bs-ride="carousel">
+                          <div class="carousel-inner">
+                              <div class="carousel-item active ">
+                                  <img src="media/Joueuse1.jpeg" class="d-block w-100" alt="équipe femmes">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="media/joueuse2.jpeg" class="d-block w-100" alt="équipe femmes">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="media/joueuse3.jpeg" class="d-block w-100" alt="équipe femmes">
+                              </div>
+                              <div class="carousel-item">
+                                  <img src="media/joueuse4.jpeg" class="d-block w-100" alt="équipe femmes">
+                              </div>
+                              >
+                          </div>
+  
+                          <button class="carousel-control-prev" type="button" data-bs-target="#carouselEquipeFeminine"
+                              data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#carouselEquipeFeminine"
+                              data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                          </button>
+                      </div>
+                  </div>
+  
+              </div>
+          </div>
+      </div>
+
+        <!-- modal carousel equipe masculine-->
+        <div class="modal fade " id="equipeMasculine" tabindex="-1" aria-labelledby="modal photos équipe homme"
+            aria-hidden="true" data-bs-backdrop="static">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Equipe Hommes</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+    
+                        <div id="carouselEquipeMasculine" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active ">
+                                    <img src="media/joueur1.jpeg" class="d-block w-100" alt="Equipe_Masculine">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="media/joueur2.jpeg" class="d-block w-100" alt="Equipe_Masculine">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="media/senior1.jpeg" class="d-block w-100" alt="Equipe_Masculine">
+                                </div>
+                                
+                            </div>
+    
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselEquipeMasculine"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselEquipeMasculine"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        </div>
 <!--début du footer-->
 <footer>
     <div class="footer-container" >
