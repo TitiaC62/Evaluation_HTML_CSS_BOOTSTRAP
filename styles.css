@@ -297,19 +297,14 @@ tbody{
 }
 
 
-
-
 .titreequipe{
     
     justify-content: center;
     text-shadow: 1px 1px #fff;
     display: flex;
     align-items: center;
-    background-color: #a4303f;
-    border-radius: 50%;
+    
 }
-
-
 
 
 
