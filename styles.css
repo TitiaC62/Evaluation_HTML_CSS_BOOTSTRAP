@@ -30,7 +30,7 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-#logo-intro-page.logo {
+#logo-intro-page {
     width: 8rem;
     height: 8rem;
     border: 6px solid #188754;
@@ -45,6 +45,7 @@ body {
     text-shadow: 1px 5px wheat;
     color: #000;
 }
+
 
 /* ================================================================================== */
 
