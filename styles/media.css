@@ -9,11 +9,17 @@
 @media screen and (min-width: 600px)  {
     
     /* Commun à toutes les pages */
- h1{
+ h1.long-text-title{
         text-align: center;
         text-shadow: 1px 5px wheat;
-        
+        display: inline-block;
     }    
+
+h2.short-text-title{
+    display: none;
+}
+
+
 
  /* ================================================================================== */
  /* Header */
@@ -90,14 +96,6 @@ img.raquette{
 /* ================================================================================== */
      /* Page Vie du club */
 
-   
-    .banniere.vie-du-club {
-        background: none;
-    }
-    
-   footer.vie-du-club {
-        background: none;
-    }
     .card{
         text-align: center;
         
@@ -155,12 +153,10 @@ img.raquette{
         grid-auto-rows: minmax(100px, auto);
     }
     
-    .tableau{
-        margin-bottom: 20px;
-         padding-left: 10px;  
-         margin: 10px;
-        box-shadow: 9px 5px 9px 3px rgba(0,0,0,0.46);
+    .tableau{      
+        box-shadow: 9px 5px 9px 3px;
         grid-column-start: 2;
+        background-color: aliceblue;
     }
 
 /* ================================================================================== */
@@ -177,6 +173,10 @@ img.raquette{
     
     
 }
+
+/* ================================================================================== */
+/* ================================================================================== */
+
     
     /* tablet and desktop à partir de 768px */
     
@@ -197,7 +197,8 @@ img.raquette{
         display: flex;
     }
     
-    
+    /* ================================================================================== */
+
     /* Page Accueil */
     
     
@@ -231,13 +232,13 @@ img.raquette{
        
     }
      
-    
-    
+
     .RightSide{
         grid-column-start: 3;
     }
     
-    
+   /* ================================================================================== */
+ 
     
     /* Page Equipe */
     .menuEquipe {
@@ -259,28 +260,24 @@ img.raquette{
         border-radius: 4px;          
         transition: all 1s ;         
     }
-    
-    
-    
-    
-       
+     
     
     .tableau{
         margin-bottom: 20px;
-       padding-left: 10px;
-       
+       padding-left: 10px; 
         
     }
-    
-    
-    
+ 
     .card{
         display: inline-block;
     }
     
-    
-    }
-    
+}
+  
+
+/* ================================================================================== */
+/* ================================================================================== */
+
     @media screen and (min-width: 1024px) {
     
     *{font-size: large;}
@@ -292,6 +289,9 @@ img.raquette{
     
     }
     
+/* ================================================================================== */
+/* ================================================================================== */
+
     @media screen and (min-width: 2560px) {
     
         *{font-size:xx-large}

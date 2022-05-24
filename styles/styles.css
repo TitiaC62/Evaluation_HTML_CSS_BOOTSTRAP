@@ -27,6 +27,15 @@ h1 {
     margin-top: 20px;
 }
 
+h1.long-text-title {
+ display: none;
+}
+
+h2.short-text-title {
+    text-shadow: 1px 5px wheat;
+    margin-top: 20px;
+}
+
 ul,
 li {
     list-style-type: none;
@@ -36,11 +45,11 @@ img {
     object-fit: cover;
 }
 
-#wrap-pages {
+.wrap-pages {
     background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/tennis-gc706d3b90_1920.jpeg) no-repeat;
     background-size: cover;
     object-position: center;
-    min-height: 100vh;
+    
 } 
 
 /*=================================================================================*/
@@ -67,7 +76,7 @@ img {
     width: 4rem;
     height: 4rem;
     border: 5px solid #188754;
-    display: none;
+
 }
 
 .icon {
@@ -83,8 +92,6 @@ img {
 }
 
 /* ================================================================================== */
-
-
 /*FOOTER */
 
 #footer-intro-page{
@@ -103,7 +110,7 @@ footer li {
 
 .footer {
     background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/tennis-terrebattues.jpg);
-    background-size: auto;
+    background-size: cover;
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -140,7 +147,6 @@ footer li {
 }
 
 /* ================================================================================== */
-
 /*Page ACCUEIL */
 
 a:visited {
@@ -188,8 +194,7 @@ aside {
 
 aside {
     background-color: #00503c;
-    box-shadow: -1px 1px 71px -6px rgba(0, 0, 0, 0.74);
-       
+          
 }
 
 .img-RG {
@@ -198,8 +203,6 @@ aside {
 }
 
 /* ================================================================================== */
-
-
 /* Page Vie du Club */
 
 .carousel-item {
@@ -207,10 +210,11 @@ aside {
     height: auto;
 }
 
-.vie-du-club {
-    color: #fff;
+.card-img-top {
+    height: 12rem;
 }
 
+/* ================================================================================== */
 /* Equipe Masculine et féminine */
 
 .Equipe_Masculine {
@@ -231,11 +235,10 @@ aside {
     margin: 15px;
 }
 
-.card-img-top {
-    height: 12rem;
-}
 
+/* ================================================================================== */
 /* Page Equipe */
+
 .menuEquipe {
     display: flex;
     justify-content: center;
@@ -274,7 +277,7 @@ tr,
 td {
     border: 1px solid grey;
     color: black;
-    margin: 10px;
+    
 }
 
 thead {
@@ -292,6 +295,7 @@ tbody {
     align-items: center;
 }
 
+/* ================================================================================== */
 /* Page Contact */
 
 #wrap-pages-contact {
