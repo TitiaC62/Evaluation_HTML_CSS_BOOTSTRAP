@@ -43,7 +43,7 @@ img.raquette{
     }
  
 .banniere {
-    background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/tennis-terrebattues.jpg);
+    background: url(../images/background/tennis-terrebattues.jpg);
     background-size:cover;
 }
 
