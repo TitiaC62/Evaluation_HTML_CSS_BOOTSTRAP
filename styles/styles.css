@@ -288,6 +288,10 @@ tbody {
     background-color: azure;
 }
 
+.tableau {
+    background-color: aliceblue;
+}
+
 .titreequipe {
     justify-content: center;
     text-shadow: 1px 1px #fff;
