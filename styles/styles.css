@@ -5,12 +5,11 @@ changements majeurs:
  - les articles et l'aside sont à la suite sur la page index
  - les cards sont l'une en dessous de l'autre sur la page vie du club */
 
-
-
+/* Commun à toutes les pages */
 /* BASE */
-
 body {
-     margin: 0;
+    /* background-color: #fff; */
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     max-width: 100%;
@@ -20,46 +19,34 @@ body {
     max-width: 100%;
 }
 
-/* Commun à toutes les pages */
-
-h1 {
-    text-shadow: 1px 5px wheat;
-    margin-top: 20px;
-}
-
-h1.long-text-title {
- display: none;
-}
-
-h2.short-text-title {
-    text-shadow: 1px 5px wheat;
-    margin-top: 20px;
-}
-
-ul,
-li {
-    list-style-type: none;
-}
-
-img {
-    object-fit: cover;
-}
-
-.wrap-pages {
-    background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/tennis-gc706d3b90_1920.jpeg) no-repeat;
+/* ================================================================================== */
+/* INTRO-PAGE */
+#wrap-intro-page {
+    background: url(./media/raquette-tennis-bulle.jpg), no-repeat;
     background-size: cover;
-    object-position: center;
-    
-} 
-
-/*=================================================================================*/
-/* HEADER */
-
-.raquette {
-    height: 2rem;
-    width: 2rem; 
-        
 }
+
+.intro-page {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#logo-intro-page.logo {
+    width: 8rem;
+    height: 8rem;
+    border: 6px solid #188754;
+}
+
+#wrap-intro-page .heading {
+    padding: 100px 0px;
+    font-size: 2rem;
+}
+
+#wrap-intro-page h1 {
+    text-shadow: 1px 5px wheat;
+    color: #000;
+}
+
+/* ================================================================================== */
 
 .navbar > .container {
     justify-content: end;
@@ -72,90 +59,25 @@ img {
     margin-top: 0;
 }
 
-.logo {
-    width: 4rem;
-    height: 4rem;
-    border: 5px solid #188754;
-
+a:visited {
+    color: inherit;
 }
 
 .icon {
     width: 2em;
     height: 2em;
-    margin-top: 1em;
-    display: none;
 }
 
 .banniere {
-    background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/tennis-terrebattues.jpg);
+    background: url(media/tennis-terrebattues.jpg);
     background-size: auto;
 }
 
-/* ================================================================================== */
-/*FOOTER */
-
-#footer-intro-page{
-    background: none;  
-    
-}
-
-#footer-intro-page a{
-    background: none;
-    color: grey;
-}
-
-footer li {
-    display: inline;
-}
-
-.footer {
-    background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/tennis-terrebattues.jpg);
-    background-size: cover;
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-
-/* ================================================================================== */
-/* Page d'Intro */
-
-#main-intro-page {
-    background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/raquette-tennis-bulle.jpg), no-repeat;
-    background-size: cover;
-}
-
-#main-intro-page .hero {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-#main-intro-page .logo {
-    width: 8rem;
-    height: 8rem;
-    border: 6px solid #188754;
-}
-
-#main-intro-page .heading {
-    font-size: 2rem;
+h1 {
     text-shadow: 1px 5px wheat;
-    color: #000
+    margin-top: 20px;
 }
 
-#main-intro-page h1 {
-    text-shadow: 1px 5px wheat;
-    color: #000;
-}
-
-/* ================================================================================== */
-/*Page ACCUEIL */
-
-a:visited {
-    color: inherit;
-}
-
-.articles-homepage-title {
-    background-color: #d45220;
-}
 .articles-homepage img {
     margin: 10px;
     text-align: center;
@@ -170,31 +92,94 @@ a:visited {
     text-align: justify;
 }
 
+img {
+    object-fit: cover;
+}
 
 .video {
     height: 30vh;
     width: auto;
 }
 
+h2 {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
+        sans-serif;
+    text-align: center;
+    font-size: 3vh;
+    background-color: #d45220;
+    margin: 10px;
+    border-radius: 10px;
+}
 
-h3,
+.logo {
+    width: 5em;
+    height: 5em;
+    margin-bottom: 10px;
+    display: none;
+}
+
+
+
+ul,
+li {
+    list-style-type: none;
+}
+
+footer li {
+    display: inline;
+}
+
+footer {
+    background: url(media/tennis-terrebattues.jpg);
+    background-size: auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* page Accueil */
+
+h2,
 article,
 aside {
     box-shadow: -1px 1px 71px -6px rgba(0, 0, 0, 0.74);
 }
 
+article {
+    background-color: #fff;
+    margin: 10px;
+}
 
 .LastNews {
-     text-shadow: 1px 1px #fff;
+    justify-content: center;
+    text-shadow: 1px 1px #fff;
     color: #d98324;
+    border: #d98324;
+    display: flex;
+    align-items: center;
     background-color: #a4303f;
-    
+    margin: 10px;
+}
+
+article,
+aside {
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 
+.raquette {
+    height: 20px;
+    width: 20px;
+    margin-top: 20px;
+}
+
 aside {
     background-color: #00503c;
-          
+    padding: 5px;
 }
 
 .img-RG {
@@ -202,7 +187,35 @@ aside {
     object-fit: cover;
 }
 
-/* ================================================================================== */
+.dirigeants {
+    text-align: center;
+    font-weight: bold;
+}
+
+.bureau {
+    height: 300px;
+    width: auto;
+}
+
+.Column1 {
+    margin: 10px;
+}
+
+.maps {
+    margin: 20px 10px;
+}
+
+.RightSide {
+    color: #fff;
+    text-align: center;
+    margin: 10px;
+}
+
+.HistoireDuClub {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
 /* Page Vie du Club */
 
 .carousel-item {
@@ -210,11 +223,6 @@ aside {
     height: auto;
 }
 
-.card-img-top {
-    height: 12rem;
-}
-
-/* ================================================================================== */
 /* Equipe Masculine et féminine */
 
 .Equipe_Masculine {
@@ -235,10 +243,11 @@ aside {
     margin: 15px;
 }
 
+.card-img-top {
+    height: 12rem;
+}
 
-/* ================================================================================== */
 /* Page Equipe */
-
 .menuEquipe {
     display: flex;
     justify-content: center;
@@ -277,7 +286,7 @@ tr,
 td {
     border: 1px solid grey;
     color: black;
-    
+    margin: 10px;
 }
 
 thead {
@@ -288,10 +297,6 @@ tbody {
     background-color: azure;
 }
 
-.tableau {
-    background-color: aliceblue;
-}
-
 .titreequipe {
     justify-content: center;
     text-shadow: 1px 1px #fff;
@@ -299,18 +304,24 @@ tbody {
     align-items: center;
 }
 
-/* ================================================================================== */
 /* Page Contact */
 
-#wrap-pages-contact {
-    background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/tennis-gc706d3b90_1920.jpeg) no-repeat;
-    background-size: cover;
-    object-position: center;
-    min-height: 100vh;
-    color: white;
-} 
+.contact {
+    color: #f2d0a4;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.bouton-envoyer {
+    margin-top: 10px;
+}
+
+.textcontact {
+    font-size: xx-large;
+}
 
 form {
     border: 15px groove grey;
-    background-color: #9a0519c3;
+    border-radius: 5px;
+    background-color: #a4303f;
 }
