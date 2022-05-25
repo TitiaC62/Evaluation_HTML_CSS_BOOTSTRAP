@@ -46,7 +46,7 @@ img {
 }
 
 .wrap-pages {
-    background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/tennis-gc706d3b90_1920.jpeg) no-repeat;
+    background: url(../images/background/tennis-gc706d3b90_1920.jpeg) no-repeat;
     background-size: cover;
     object-position: center;
     
@@ -87,7 +87,7 @@ img {
 }
 
 .banniere {
-    background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/tennis-terrebattues.jpg);
+    background: url(../images/background/tennis-terrebattues.jpg);
     background-size: auto;
 }
 
@@ -109,7 +109,7 @@ footer li {
 }
 
 .footer {
-    background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/tennis-terrebattues.jpg);
+    background: url(../images/background/tennis-terrebattues.jpg);
     background-size: cover;
     padding: 20px;
     display: flex;
@@ -121,7 +121,7 @@ footer li {
 /* Page d'Intro */
 
 #main-intro-page {
-    background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/raquette-tennis-bulle.jpg), no-repeat;
+    background: url(../images/background/raquette-tennis-bulle.jpg), no-repeat;
     background-size: cover;
 }
 
@@ -303,7 +303,7 @@ tbody {
 /* Page Contact */
 
 #wrap-pages-contact {
-    background: url(/Evaluation_HTML_CSS_BOOTSTRAP/images/background/tennis-gc706d3b90_1920.jpeg) no-repeat;
+    background: url(../images/background/tennis-gc706d3b90_1920.jpeg) no-repeat;
     background-size: cover;
     object-position: center;
     min-height: 100vh;
