@@ -19,7 +19,13 @@ h2.short-text-title{
     display: none;
 }
 
+main {
+   padding-top : 50px;
+}
 
+a {
+    color: inherit;
+}
 
  /* ================================================================================== */
  /* Header */
@@ -28,7 +34,6 @@ h2.short-text-title{
     display: flex;
     justify-content: space-around;
     color: black;
-    
     }
     
 .icon{
@@ -41,13 +46,6 @@ img.raquette{
         height: 50px;
         width: 50px;
     }
- 
-.banniere {
-    background: url(../images/background/tennis-terrebattues.jpg);
-    background-size:cover;
-}
-
-
         
 .logo.pages{
     width: 5rem;
@@ -90,7 +88,7 @@ img.raquette{
        
     .Aside_RightSide{
         grid-column-start: 3;
-        
+                
     }
     
 /* ================================================================================== */
@@ -114,6 +112,7 @@ img.raquette{
      
 /* ================================================================================== */
   /* Page Equipe */
+  
     .menuEquipe {
         display: flex;                
         padding:0;                    
@@ -158,6 +157,8 @@ img.raquette{
         grid-column-start: 2;
         
     }
+
+
 
 /* ================================================================================== */
     /* Page Contact */
